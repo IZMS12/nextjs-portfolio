@@ -7,12 +7,12 @@ function Footer() {
     return (
         <footer className="bg-white dark:bg-gray-900">
             <div className="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row text-teal-600">
-                <a href="/" className="flex items-center">
+                <Link href="/" className="flex items-center">
                     <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                     <span className="ml-1 text-xl font-bold tracking-wide text-white">110</span>
-                </a>
+                </Link>
 
                 <p className="text-sm text-gray-600 dark:text-gray-300">© Copyright 2021. All Rights Reserved.</p>
 
